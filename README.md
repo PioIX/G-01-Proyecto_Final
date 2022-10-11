@@ -17,6 +17,3 @@
   <a href="https://docs.google.com/document/d/1gt4s_JTkhqHP9GYpHwM_wE5QuGlqeQ2BRZ0k7zIwLRY/edit?usp=sharing">Link al Presupuesto</a>
   
 ## Índice:
-
-
-Proyecto Final Grupo 01 - 'WORDS.inc'
