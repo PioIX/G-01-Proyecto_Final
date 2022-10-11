@@ -17,3 +17,15 @@
   <a href="https://docs.google.com/document/d/1gt4s_JTkhqHP9GYpHwM_wE5QuGlqeQ2BRZ0k7zIwLRY/edit?usp=sharing">Link al Presupuesto</a>
   
 ## Índice:
+ ### templates:
+  * html:
+   Para guardar los archivos con extensión '.html', que hacen referencia a las páginas de nuestra aplicación web.
+ ### static:
+  * CSS:
+   Para guardar los archivos con extensión '.css', que hacen referencia a los estilos de las páginas.
+  * javascript:
+   Para guardar los archivos con extensión '.js', que hacen referencia a los scripts de las páginas.
+  * img:
+   Para guardar cualquier archivo que tenga una extensión de imagen.
+ ### BaseDeDatos:
+  Para guardar los archivos con extensión '.db', que hace referencia a las bases de datos.
