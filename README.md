@@ -28,4 +28,4 @@
   * img:
    Para guardar cualquier archivo que tenga una extensión de imagen.
  ### BaseDeDatos:
-  Para guardar los archivos con extensión '.db', que hace referencia a las bases de datos.
+  * Para guardar los archivos con extensión '.db', que hace referencia a las bases de datos.
