@@ -18,10 +18,11 @@ JUGAR: Te manda a una pantalla en la que se tiene que hacer conexión con otra c
 ¿CÓMO JUGAR? / INSTRUCCIONES: Te manda a una pantalla en la que se explica las reglas del juego y cómo conectarte con otro jugador.
 RANKING: Te manda a una pantalla en la que muestra un ranking con los jugadores con más victorias acumuladas. En caso de empate, ambos se muestran con la misma posición, y se ordenan alfabéticamente. 
 CRÉDITOS: Te manda a una pantalla en la que se da créditos a los creadores (nosotros) y a otras personas de las que tomamos, por ejemplo JKLM (Juego del que nos inspiramos) o la API.
-En nuestro programa, el admin tiene la capacidad de borrar jugadores de la tabla (DELETE), modificar algunas reglas del juego (como por ejemplo, el tiempo de la partida, el tiempo antes de cambiar de sílaba, etc) (PUT), obtener el nombre u otros datos de algún jugador (GET) y agregar reglas (POST).
+En nuestro programa, el admin tiene la capacidad de borrar jugadores de la tabla (DELETE), modificar algunas reglas del juego (como por ejemplo, el tiempo de la partida, el tiempo antes de cambiar de sílaba, etc) (PUT), obtener el nombre u otros datos de algún jugador (GET) y agregar reglas (POST). 
 
 ### Maqueta Html:
 
 **Logo:**
 
 [![logo.png](https://i.postimg.cc/Pf9wWz4S/logo.png)](https://postimg.cc/YjN0kFTF)
+
