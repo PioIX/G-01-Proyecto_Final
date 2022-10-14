@@ -24,4 +24,4 @@ En nuestro programa, el admin tiene la capacidad de borrar jugadores de la tabla
 
 **Logo:**
 
-<img src="docs/logo.png" alt="logo/>
+[![logo.png](https://i.postimg.cc/Pf9wWz4S/logo.png)](https://postimg.cc/YjN0kFTF)
