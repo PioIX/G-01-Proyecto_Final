@@ -14,7 +14,7 @@
   <a href="presupuesto.md>Link a la App de Flask</a>
   
 ## Presupuesto: 
-  <a href="https://docs.google.com/document/d/1gt4s_JTkhqHP9GYpHwM_wE5QuGlqeQ2BRZ0k7zIwLRY/edit?usp=sharing">Link al Presupuesto</a>
+  <a href="presupuesto.md">Presupuesto</a>
   
 ## Índice:
  ### templates:
