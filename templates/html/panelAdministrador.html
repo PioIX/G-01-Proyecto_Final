@@ -1,0 +1,33 @@
+{% extends './html/base.html' %}
+
+{% block title %}
+Panel de administrador - WORDS.inc
+{% endblock %}
+
+{% block main_content %}
+<form id="formGet" method="GET">
+  <label for="devolver">Devolver Jugador: </label>
+  <select onclick="completarSelect({{listaJugadores}}, 'devolver')" id="devolver" name="devolver"></select>
+  <input type="button" onclick="devolverJugador()" value="Devolver">
+</form>
+<br>
+<br>
+<form id="formPut" method="PUT">
+  <label for="modificar">Seleccionar Jugador: </label>
+  <select onclick="completarSelect({{listaJugadores}}, 'modificar')" id="modificar" name="modificar"></select><br>
+  <label for="modVictorias">Ingrese el nuevo valor de victorias de este jugador: </label>
+  <input type="number" id="modVictorias" value="">
+  <input type="button" onclick="modificarJugador()" value="Modificar">
+</form>
+<br>
+<br>
+<form id="formDelete" method="DELETE">
+  <label for="borrar">Borrar Jugador: </label>
+  <select onclick="completarSelect({{listaJugadores}}, 'borrar')" id="borrar" name="borrar"></select>
+  <input type="button" onclick="borrarJugador()" value="Borrar">
+</form>
+{% endblock %}
+
+{% block script %}
+<script src="./static/javascript/pan_admin.js"></script>
+{% endblock %}
