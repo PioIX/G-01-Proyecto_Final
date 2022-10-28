@@ -1,0 +1,22 @@
+{% extends './html/base.html' %}
+
+{% block title %}
+Inicio - WORDS.inc
+{% endblock %}
+
+{% block headline %}
+WORDS.inc
+{% endblock %}
+
+{% block main_content %}
+<form id="formMenu">
+  <input type="button" onclick="modificarFormAction('{{url_for('juego')}}')" value="JUEGO">
+  <input type="button" onclick="modificarFormAction('{{url_for('instrucciones')}}')" value="¿CÓMO JUGAR?">
+  <input type="button" onclick="modificarFormAction('{{url_for('ranking')}}')" value="RANKING">
+  <input type="button" onclick="modificarFormAction('{{url_for('creditos')}}')" value="CRÉDITOS">
+</form>
+{% endblock %}
+
+{% block script %}
+<script src="./static/javascript/menu.js"></script>
+{% endblock %}
