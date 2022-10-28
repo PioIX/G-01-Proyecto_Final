@@ -1,1 +1,18 @@
 {% extends './html/base.html' %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="./static/CSS/styles.css">
+{% endblock %}
+
+{% block title %}
+Inicio - WORDS.inc
+{% endblock %}
+
+{% block main_content %}
+<div>
+  <h1>WORDS.inc</h1>
+</div>
+<form action="{{url_for('iniciarSesion')}}">
+  <input class="inicioSesion" type="submit" value="INICIAR SESIÓN">
+</form>
+{% endblock %}
