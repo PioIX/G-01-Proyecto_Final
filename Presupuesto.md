@@ -38,7 +38,6 @@ _Nota: Las ímagenes son un boceto; el diseño de la página puede sufrir posibl
 
 <img src="https://i.postimg.cc/BZ2Sgqjs/cap1.png">
 <img src="https://i.postimg.cc/0yy9PDc2/cap2.png">
-<img src="https://i.postimg.cc/yYBVpwRR/cap3.png">
 <img src="https://i.postimg.cc/tC59K2dM/cap4.png">
 <img src="https://i.postimg.cc/0yXPQjBG/cap5.png">
 <img src="https://i.postimg.cc/8CFDrG22/cap6.png">
