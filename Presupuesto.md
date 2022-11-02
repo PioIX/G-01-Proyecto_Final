@@ -8,6 +8,7 @@
 		nombre	        TEXT UNIQUE NOT NULL
 		contraseña 	TEXT NOT NULL
 		victorias 	INTEGER NOT NULL
+		url_foto	TEXT NOT NULL
     
 ## Reglas:
 
