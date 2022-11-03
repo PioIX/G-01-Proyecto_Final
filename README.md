@@ -16,6 +16,10 @@
 ## Presupuesto: 
   <a href="Presupuesto.md">Presupuesto</a>
   
+## Usuario Admin:
+  * usuario: admin
+  * contraseña: verdaderoadministrador12
+
 ## Índice:
  ### templates:
   * html:
