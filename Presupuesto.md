@@ -2,13 +2,20 @@
 
 ## Estructura de la base de datos:
 
-	Tabla ‘Jugadores’:
+	Tabla 'Jugadores':
 		Campos:
 		id              INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT
 		nombre	        TEXT UNIQUE NOT NULL
 		contraseña 	TEXT NOT NULL
 		victorias 	INTEGER NOT NULL
 		url_foto	TEXT NOT NULL
+		
+	Tabla 'Partidas':
+		Campos:		
+		partida		INTEGER NOT NULL PRIMARY KEY
+		jugador_1	TEXT NOT NULL
+		jugador_2	TEXT NOT NULL
+		comenzada	INTEGER NOT NULL
     
 ## Reglas:
 
