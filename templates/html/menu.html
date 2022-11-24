@@ -4,19 +4,39 @@
 Inicio - WORDS.inc
 {% endblock %}
 
-{% block headline %}
-WORDS.inc
+{% block stylesheet %}
+<link rel="stylesheet" href="./static/CSS/menu.css">
+{% endblock %}
+
+{% block nav %}
+<div class="navbar">
+  <input class="salir" type="button" onclick="cerrarSesion()" value="Cerrar Sesión">
+  <form id="formSalir" action="{{url_for('index')}}"></form>
+</div>
 {% endblock %}
 
 {% block main_content %}
+<div class="contenedor">
+  <div class="titulo1 unselectable" id="parteIzq">
+    WORDS
+  </div>
+  <div class="titulo2 unselectable" id="parteDer">
+    .INC
+  </div>
+</div>
 <form id="formMenu">
-  <input type="button" onclick="modificarFormAction('{{url_for('juego')}}')" value="JUEGO">
-  <input type="button" onclick="modificarFormAction('{{url_for('instrucciones')}}')" value="¿CÓMO JUGAR?">
-  <input type="button" onclick="modificarFormAction('{{url_for('ranking')}}')" value="RANKING">
-  <input type="button" onclick="modificarFormAction('{{url_for('creditos')}}')" value="CRÉDITOS">
+  <div class="botonesArriba">
+    <input type="button" class="boton" onclick="modificarFormAction('{{url_for('conexion')}}')" value="JUGAR">
+    <input type="button" class="boton" onclick="modificarFormAction('{{url_for('instrucciones')}}')" value="¿CÓMO JUGAR?">
+  </div>
+  <div class="botonesAbajo">
+    <input type="button" class="boton" onclick="modificarFormAction('{{url_for('ranking')}}')" value="RANKING">
+    <input type="button" class="boton" onclick="modificarFormAction('{{url_for('creditos')}}')" value="CRÉDITOS">
+  </div>
 </form>
 {% endblock %}
 
 {% block script %}
 <script src="./static/javascript/menu.js"></script>
+<script src="./static/javascript/salir.js"></script>
 {% endblock %}
